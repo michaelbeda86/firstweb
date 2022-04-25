@@ -6,11 +6,6 @@
 html {
   scroll-behavior: smooth;
 }
-img{
-  transform: rotate(20deg);
-  border-radius: 50%;
-  aspect-ratio: 1/1;
-}
 a{
   text-decoration: none;
   color: black;
@@ -104,7 +99,6 @@ a{
   box-sizing: border-box;
   padding: 20px;
   margin-bottom: 50px;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 #pic {
   display: flex;
@@ -123,32 +117,11 @@ a{
   font-size: 2rem;
   margin-bottom: 20px;
 }
-/* Portfolio Section */
-#portfolio {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.9);
-  color: white;
-  align-items: center;
-  padding: 20px;
-}
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  box-sizing: border-box;
-}
-.gallery img {
-  width: 360px;
-  height: 240px;
-  margin: 10px;
-}
 /* Services Section */
 #services {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 .row {
   display: flex;
