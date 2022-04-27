@@ -164,6 +164,7 @@ a{
   background-color: rgba(0, 0, 0, 0.9);
   color: white;
   padding: 20px;
+
 }
 .form {
   display: flex;
@@ -197,4 +198,22 @@ a{
 #send:hover {
   cursor: pointer;
   box-shadow: 0 0 10px white;
+}
+.footer{
+  color: white;
+  text-align: center;
+  padding: 2.5rem 0;
+}
+.footer a{
+  color: aqua;
+}
+.footer-list{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 2em 0 0;
+  padding: 0;
+}
+.footer_list:hover{
+  opacity: .7;
 }
