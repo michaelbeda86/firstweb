@@ -199,13 +199,16 @@ a{
   cursor: pointer;
   box-shadow: 0 0 10px white;
 }
+/* Footer */
 .footer{
+  background-color: #111;
   color: white;
   text-align: center;
   padding: 2.5rem 0;
+  font-size: large;
 }
 .footer a{
-  color: aqua;
+  color: #818589;
 }
 .footer-list{
   list-style: none;
@@ -214,6 +217,12 @@ a{
   margin: 2em 0 0;
   padding: 0;
 }
-.footer_list:hover{
+.footer-list__link:hover{
   opacity: .7;
+}
+.footer-list__item{
+  margin: 0 .5em;
+}
+.footer-list__link{
+  padding: .5em;
 }
